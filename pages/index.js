@@ -1,7 +1,7 @@
 export default function Home() {
   return (
-    <div className="">
-      <h1 className="text-3xl font-bold text-red-500 underline">Hello world!</h1>
-    </div>
+    <main className="mx-4">
+      <div className="bg-red-500">visualising your identity</div>
+    </main>
   );
 }
