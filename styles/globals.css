@@ -9,7 +9,27 @@
   }
 }
 
+/* STYLING */
 /* Background: neutral-100 */
+/* Background (darker): neutral-200 */
 /* Text: neutral-900 */
-/* Darker background: neutral-200 */
-/* Darker text: neutral-500 */
+/* Text (darker): neutral-500 */
+
+/**TODO
+ * Reevaluate all padding/margin/spacings
+ *  1. Check Logo.js
+ *  2. Check Navbar.js
+ *  3. Check Footer.js
+ *  4. Check index.js
+ *  5. Base the rest of the site on that
+ * Organise imports
+ * Adjust every page for desktop
+ */
+
+/* MARGIN */
+/* Normal: mx-4 */
+/* Large: mx-32 / px-48 */
+
+/* PADDING */
+
+/* HOVER EFFECTS */

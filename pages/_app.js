@@ -4,12 +4,6 @@ import "tailwindcss/tailwind.css";
 
 import Layout from "../components/layout";
 
-/**TODO
- * Reevaluate all padding/margin/spacings
- * Organise imports
- * Adjust every page for desktop
- */
-
 function MyApp({ Component, pageProps }) {
   return (
     <Layout>
