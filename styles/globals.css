@@ -5,7 +5,7 @@
 @layer base {
   html,
   body {
-    @apply h-screen overflow-x-hidden bg-neutral-100 font-sans text-base text-neutral-900;
+    @apply h-screen w-screen overflow-x-hidden scroll-smooth bg-neutral-100 font-sans text-base text-neutral-900;
   }
 }
 
