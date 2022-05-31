@@ -15,7 +15,9 @@ export default function Home() {
       <div className="grid grid-cols-2 place-items-center gap-2">
         {cardsData.map((item, index) => {
           return (
-            <div className="flex h-40 w-40 flex-col items-center justify-between bg-blue-1 text-neutral-100">
+            <div
+              className="flex h-40 w-40 flex-col items-center justify-between bg-blue-1 text-neutral-100"
+              key={index}>
               <i className={item.icon}></i>
               <span className="flex w-full items-center justify-between px-4">
                 <p className="text-lg font-bold">{item.text}</p>
