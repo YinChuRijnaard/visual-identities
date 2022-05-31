@@ -33,14 +33,15 @@ This website is built for Visual Identities, a graphic design and communication 
 
 #### Margin between components
 
-- Small: `my-4`
-- Big: `my-8`
+- `my-8`
 
 #### Padding
 
 - Button
   - Horizontally: `px-4`
   - Vertically: `py-2`
+- Elements
+  - `p-4`
 
 #### Spacing between elements
 

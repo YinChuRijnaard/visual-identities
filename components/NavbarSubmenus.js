@@ -4,7 +4,7 @@ import { servicesSubmenuData, casesSubmenuData } from "../utils/navbarSubmenusDa
 
 export function ServicesSubmenu({ handleToggle }) {
   return (
-    <ul className="mt-2 space-y-2 font-normal text-neutral-400">
+    <ul className="space-y-2 text-neutral-500">
       {servicesSubmenuData.map((item, index) => {
         return (
           <li key={index}>
@@ -20,7 +20,7 @@ export function ServicesSubmenu({ handleToggle }) {
 
 export function CasesSubmenu({ handleToggle }) {
   return (
-    <ul className="mt-2 space-y-2 font-normal text-neutral-400">
+    <ul className="space-y-2 text-neutral-500">
       {casesSubmenuData.map((item, index) => {
         return (
           <li key={index}>

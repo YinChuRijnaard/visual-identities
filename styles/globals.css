@@ -5,6 +5,11 @@
 @layer base {
   html,
   body {
-    @apply overflow-x-hidden bg-neutral-100 font-sans text-base;
+    @apply h-screen overflow-x-hidden bg-neutral-100 font-sans text-base text-neutral-900;
   }
 }
+
+/* Background: neutral-100 */
+/* Text: neutral-900 */
+/* Darker background: neutral-200 */
+/* Darker text: neutral-500 */

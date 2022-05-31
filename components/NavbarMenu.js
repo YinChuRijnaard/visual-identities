@@ -11,7 +11,7 @@ export default function NavbarMenu({ handleToggle }) {
   const handleCasesSubmenu = () => setCasesOpen(!casesOpen);
 
   return (
-    <div className="mx-4 h-screen text-neutral-100">
+    <div className="mx-4 h-screen">
       <ul className="mt-8 space-y-4">
         <li>
           <Link href="/">
@@ -19,7 +19,7 @@ export default function NavbarMenu({ handleToggle }) {
           </Link>
         </li>
 
-        <hr className="border-neutral-400" />
+        <hr className="border-neutral-200" />
 
         <li>
           <a className="flex cursor-pointer items-center justify-between" onClick={handleServicesSubmenu}>
@@ -29,7 +29,7 @@ export default function NavbarMenu({ handleToggle }) {
           {servicesOpen ? <ServicesSubmenu handleToggle={handleToggle} /> : null}
         </li>
 
-        <hr className="border-neutral-400" />
+        <hr className="border-neutral-200" />
 
         <li>
           <a className="flex cursor-pointer items-center justify-between" onClick={handleCasesSubmenu}>
@@ -39,7 +39,7 @@ export default function NavbarMenu({ handleToggle }) {
           {casesOpen ? <CasesSubmenu handleToggle={handleToggle} /> : null}
         </li>
 
-        <hr className="border-neutral-400" />
+        <hr className="border-neutral-200" />
 
         <li>
           <Link href="/about">
@@ -47,7 +47,7 @@ export default function NavbarMenu({ handleToggle }) {
           </Link>
         </li>
 
-        <hr className="border-neutral-400" />
+        <hr className="border-neutral-200" />
 
         <li>
           <Link href="/partners">
@@ -55,7 +55,7 @@ export default function NavbarMenu({ handleToggle }) {
           </Link>
         </li>
 
-        <hr className="border-neutral-400" />
+        <hr className="border-neutral-200" />
 
         <li>
           <Link href="/contact">
@@ -63,7 +63,7 @@ export default function NavbarMenu({ handleToggle }) {
           </Link>
         </li>
 
-        <hr className="border-neutral-400" />
+        <hr className="border-neutral-200" />
       </ul>
     </div>
   );
