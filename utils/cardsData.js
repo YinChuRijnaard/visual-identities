@@ -2,7 +2,7 @@ export const cardsData = [
   // Find another way to center the icons, instead of using p-4!
   {
     text: "data visualisation",
-    icon: "ri-pie-chart-line ri-3x p-4",
+    src: "/icons/brandIdentity.svg",
     link: "/services/data-visualisation",
   },
   {
@@ -12,22 +12,22 @@ export const cardsData = [
   },
   {
     text: "photography",
-    icon: "ri-camera-line ri-3x p-4",
+    src: "/icons/brand",
     link: "/services/photography",
   },
   {
     text: "brand identity",
-    icon: "ri-typhoon-line ri-3x p-4",
+    src: "/icons/brand",
     link: "/services/brand-identity",
   },
   {
     text: "web development",
-    icon: "ri-cursor-line ri-3x p-4",
+    src: "/icons/brand",
     link: "/services/web-development",
   },
   {
     text: "seo/sea",
-    icon: "ri-macbook-line ri-3x p-4",
+    src: "/icons/brand",
     link: "/services/seo-sea",
   },
 ];
