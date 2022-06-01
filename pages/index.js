@@ -1,6 +1,7 @@
 import Link from "next/link";
-
 import Divider from "../components/Divider";
+
+import brandWhite from "../public/icons/brandWhite.svg";
 
 import { cardsData } from "../utils/cardsData";
 import ButtonWhite from "../components/ButtonWhite";
