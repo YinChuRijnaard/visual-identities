@@ -3,9 +3,6 @@ import Divider from "../components/Divider";
 
 // Discord link to discussion: https://discord.com/channels/102860784329052160/105765765117935616/981510345594114138
 
-// @ts-ignore
-// import BrandBlue from "../public/icons/brandBlue.svg";
-
 import { cardsData } from "../utils/cardsData";
 import ButtonWhite from "../components/ButtonWhite";
 
@@ -23,7 +20,7 @@ export default function Home() {
               className="flex h-40 w-40 flex-col items-center justify-between bg-red-500 text-neutral-100 lg:h-48 lg:w-48"
               key={index}>
               {/* <i className={item.icon}></i> */}
-              <img src={item.src} width="48" height="48" alt="icon" />
+              <p>Icon here</p>
               <span className="flex w-full items-center justify-between px-4">
                 <p className="text-lg font-bold">{item.text}</p>
                 <Link href={item.link}>
