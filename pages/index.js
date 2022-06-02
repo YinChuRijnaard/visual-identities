@@ -1,9 +1,9 @@
 import Link from "next/link";
-import Divider from "../components/Divider";
 
 // Discord link to discussion: https://discord.com/channels/102860784329052160/105765765117935616/981510345594114138
 
-import { cardsData } from "../utils/cardsData";
+import cardsData from "../utils/cardsData";
+import Divider from "../components/Divider";
 import ButtonWhite from "../components/ButtonWhite";
 
 export default function Home() {
@@ -17,14 +17,15 @@ export default function Home() {
         {cardsData.map((item, index) => {
           return (
             <div
-              className="flex h-40 w-40 flex-col items-center justify-between bg-red-500 text-neutral-100 lg:h-48 lg:w-48"
+              className="flex h-40 w-40 flex-col items-center justify-end bg-blue-1 text-neutral-100 lg:h-48 lg:w-48"
               key={index}>
-              {/* <i className={item.icon}></i> */}
-              <p>Icon here</p>
-              <span className="flex w-full items-center justify-between px-4">
-                <p className="text-lg font-bold">{item.text}</p>
+              {item.icon}
+              <span className="flex w-full items-end justify-center">
                 <Link href={item.link}>
-                  <i className="ri-arrow-right-line ri-2x cursor-pointer"></i>
+                  <span className="flex w-full cursor-pointer items-end justify-between p-1">
+                    <p className="font-bold">{item.text}</p>
+                    <i className="ri-arrow-right-line ri-2x"></i>
+                  </span>
                 </Link>
               </span>
             </div>

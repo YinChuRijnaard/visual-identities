@@ -1,33 +1,41 @@
-export const cardsData = [
-  // Find another way to center the icons, instead of using p-4!
+import DataVisualisation from "../public/icons/DataVisualisation";
+import Infographics from "../public/icons/Infographics";
+import Photography from "../public/icons/Photography";
+import BrandIdentity from "../public/icons/BrandIdentity";
+import WebDevelopment from "../public/icons/WebDevelopment";
+import SeoSea from "../public/icons/SeoSea";
+
+const cardsData = [
   {
     text: "data visualisation",
-    src: "/icons/brandIdentity.svg",
+    icon: <DataVisualisation />,
     link: "/services/data-visualisation",
   },
   {
     text: "infographics",
-    icon: "ri-folder-info-line ri-3x p-4",
+    icon: <Infographics />,
     link: "/services/infographics",
   },
   {
     text: "photography",
-    src: "/icons/brand",
+    icon: <Photography />,
     link: "/services/photography",
   },
   {
     text: "brand identity",
-    src: "/icons/brand",
+    icon: <BrandIdentity />,
     link: "/services/brand-identity",
   },
   {
     text: "web development",
-    src: "/icons/brand",
+    icon: <WebDevelopment />,
     link: "/services/web-development",
   },
   {
     text: "seo/sea",
-    src: "/icons/brand",
+    icon: <SeoSea />,
     link: "/services/seo-sea",
   },
 ];
+
+export default cardsData;
