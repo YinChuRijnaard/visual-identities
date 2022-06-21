@@ -1,5 +1,10 @@
 import Link from "next/link";
 
+import cardsData from "../utils/cardsData";
+import Divider from "../components/Divider";
+import PlusSign from "../components/PlusSign";
+import ButtonWhite from "../components/ButtonWhite";
+
 // Discord link to discussion: https://discord.com/channels/102860784329052160/105765765117935616/981510345594114138
 
 // Dark text: neutral-900
@@ -8,10 +13,8 @@ import Link from "next/link";
 // TODO
 // - Close nav menu when clicking logo to go home
 // - Change Cases sub menu to just one page and delete JZ Service component
-
-import cardsData from "../utils/cardsData";
-import Divider from "../components/Divider";
-import ButtonWhite from "../components/ButtonWhite";
+// Make sure nav URL etc auto-hide when scrolling
+// Fix alignment of cards and its data/content
 
 export default function Home() {
   return (
@@ -24,14 +27,14 @@ export default function Home() {
         {cardsData.map((item, index) => {
           return (
             <div
-              className="flex h-40 w-40 flex-col items-center justify-end bg-blue-1 fill-neutral-100 text-neutral-100 lg:h-48 lg:w-48"
+              className="flex h-40 w-40 flex-col items-center justify-between bg-blue-1 fill-neutral-100 text-neutral-100 lg:h-48 lg:w-48"
               key={index}>
-              {item.icon}
-              <span className="flex w-full items-end justify-center">
+              <span>{item.icon}</span>
+              <span className="w-full cursor-pointer p-1">
                 <Link href={item.link}>
-                  <span className="flex w-full cursor-pointer items-end justify-between p-1">
+                  <span className="flex items-center justify-between">
                     <p className="font-bold">{item.text}</p>
-                    <i className="ri-arrow-right-line ri-2x"></i>
+                    <PlusSign />
                   </span>
                 </Link>
               </span>

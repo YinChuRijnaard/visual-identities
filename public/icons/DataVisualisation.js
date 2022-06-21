@@ -1,7 +1,7 @@
 export default function DataVisualisation() {
   // brandWhite
   return (
-    <svg
+    <svg    className="p-1"
       height="96"
       width="96"
       version="1.1"
