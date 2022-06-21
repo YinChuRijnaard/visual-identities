@@ -2,6 +2,9 @@ import Link from "next/link";
 
 // Discord link to discussion: https://discord.com/channels/102860784329052160/105765765117935616/981510345594114138
 
+// Dark text: neutral-900
+// Light text: neutral-100
+
 import cardsData from "../utils/cardsData";
 import Divider from "../components/Divider";
 import ButtonWhite from "../components/ButtonWhite";
@@ -17,7 +20,7 @@ export default function Home() {
         {cardsData.map((item, index) => {
           return (
             <div
-              className="flex h-40 w-40 flex-col items-center justify-end bg-blue-1 text-neutral-100 lg:h-48 lg:w-48"
+              className="flex h-40 w-40 flex-col items-center justify-end bg-blue-1 fill-neutral-100 text-neutral-100 lg:h-48 lg:w-48"
               key={index}>
               {item.icon}
               <span className="flex w-full items-end justify-center">
