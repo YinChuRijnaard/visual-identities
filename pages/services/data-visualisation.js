@@ -1,5 +1,7 @@
 import InfographicSteps from "../../public/assets/InfographicSteps";
 
+// https://stackoverflow.com/questions/46670075/svg-in-jsx-how-to-convert-defs-tag
+
 export default function DataVisualisation() {
   return (
     <>

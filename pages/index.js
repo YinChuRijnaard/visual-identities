@@ -5,6 +5,10 @@ import Link from "next/link";
 // Dark text: neutral-900
 // Light text: neutral-100
 
+// TODO
+// - Close nav menu when clicking logo to go home
+// - Change Cases sub menu to just one page and delete JZ Service component
+
 import cardsData from "../utils/cardsData";
 import Divider from "../components/Divider";
 import ButtonWhite from "../components/ButtonWhite";
