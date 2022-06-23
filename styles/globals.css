@@ -8,3 +8,13 @@
     @apply h-full w-screen overflow-x-hidden scroll-smooth bg-neutral-100 font-sans text-base text-neutral-900;
   }
 }
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#__next {
+  min-height: 100vh;
+}
