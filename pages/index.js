@@ -16,6 +16,8 @@ import ButtonWhite from "../components/ButtonWhite";
 // Make sure nav URL etc auto-hide when scrolling
 // Fix alignment of cards and its data/content
 
+// Test commit
+
 export default function Home() {
   return (
     <main className="mx-4 h-full lg:mx-48">
