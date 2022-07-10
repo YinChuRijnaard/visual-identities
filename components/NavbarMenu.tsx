@@ -4,8 +4,8 @@ import { useState } from "react";
 import { ServicesSubmenu, CasesSubmenu } from "./NavbarSubmenus";
 
 export default function NavbarMenu({ handleToggle }) {
-  const [servicesOpen, setServicesOpen] = useState(false);
-  const [casesOpen, setCasesOpen] = useState(false);
+  const [servicesOpen, setServicesOpen] = useState<boolean>(false);
+  const [casesOpen, setCasesOpen] = useState<boolean>(false);
 
   const handleServicesSubmenu = () => setServicesOpen(!servicesOpen);
   const handleCasesSubmenu = () => setCasesOpen(!casesOpen);

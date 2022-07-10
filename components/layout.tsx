@@ -4,7 +4,11 @@ import Footer from "./Footer";
 
 import styles from "../styles/layout.module.css";
 
-export default function Layout({ children }) {
+type ChildrenProps = {
+  children: React.ReactNode;
+};
+
+export default function Layout({ children }: ChildrenProps) {
   return (
     <>
       <Logo />

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import type { NextPage } from "next";
 
 import cardsData from "../utils/cardsData";
 import Divider from "../components/Divider";
@@ -18,7 +19,7 @@ import ButtonWhite from "../components/ButtonWhite";
 
 // Test commit
 
-export default function Home() {
+export default function Home<NextPage>() {
   return (
     <main className="mx-4 h-full lg:mx-48">
       <div className="h-64 w-full bg-blue-1 text-center font-bold text-neutral-100">visualising your identity</div>

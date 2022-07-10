@@ -5,7 +5,7 @@ import ButtonBlue from "./ButtonBlue";
 import NavbarMenu from "./NavbarMenu";
 
 export default function Navbar(props) {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState<boolean>(false);
 
   const handleToggle = () => setIsOpen(!isOpen);
 
