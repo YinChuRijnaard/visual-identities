@@ -12,12 +12,12 @@ type ChildrenProps = {
 
 const Layout = ({ children }: ChildrenProps) => {
   return (
-    <>
+    <div>
       <Logo />
       <Navbar />
       <main className={styles.main}>{children}</main>
       <Footer />
-    </>
+    </div>
   );
 };
 
