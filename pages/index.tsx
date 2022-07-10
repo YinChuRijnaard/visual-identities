@@ -1,10 +1,14 @@
+// Framework imports
 import Link from "next/link";
 import type { NextPage } from "next";
 
-import cardsData from "../utils/cardsData";
+// Component imports
 import Divider from "../components/Divider";
 import PlusSign from "../components/PlusSign";
 import ButtonWhite from "../components/ButtonWhite";
+
+// Data imports
+import cardsData from "../data/cardsData";
 
 // Discord link to discussion: https://discord.com/channels/102860784329052160/105765765117935616/981510345594114138
 
@@ -17,9 +21,7 @@ import ButtonWhite from "../components/ButtonWhite";
 // Make sure nav URL etc auto-hide when scrolling
 // Fix alignment of cards and its data/content
 
-// Test commit
-
-export default function Home<NextPage>() {
+const Home: NextPage = () => {
   return (
     <main className="mx-4 h-full lg:mx-48">
       <div className="h-64 w-full bg-blue-1 text-center font-bold text-neutral-100">visualising your identity</div>
@@ -87,4 +89,6 @@ export default function Home<NextPage>() {
       </span>
     </main>
   );
-}
+};
+
+export default Home;

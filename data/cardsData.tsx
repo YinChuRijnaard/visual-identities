@@ -1,3 +1,4 @@
+// Asset imports
 import DataVisualisation from "../public/icons/DataVisualisation";
 import Infographics from "../public/icons/Infographics";
 import Photography from "../public/icons/Photography";

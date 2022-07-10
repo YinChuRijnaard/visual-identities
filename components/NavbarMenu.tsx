@@ -1,9 +1,15 @@
-import Link from "next/link";
+// Framework imports
 import { useState } from "react";
+import Link from "next/link";
 
+// Component imports
 import { ServicesSubmenu, CasesSubmenu } from "./NavbarSubmenus";
 
-export default function NavbarMenu({ handleToggle }) {
+type NavbarMenuProps = {
+  handleToggle: () => void;
+};
+
+const NavbarMenu = ({ handleToggle }: NavbarMenuProps) => {
   const [servicesOpen, setServicesOpen] = useState<boolean>(false);
   const [casesOpen, setCasesOpen] = useState<boolean>(false);
 
@@ -67,4 +73,6 @@ export default function NavbarMenu({ handleToggle }) {
       </ul>
     </div>
   );
-}
+};
+
+export default NavbarMenu;

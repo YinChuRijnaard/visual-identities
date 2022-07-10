@@ -1,4 +1,4 @@
-export default function Footer() {
+const Footer = () => {
   // No margin left/right for the footer
   // Margin top 16px
 
@@ -33,7 +33,9 @@ export default function Footer() {
       <p className="text-xs text-neutral-500">Copyright &copy; Visual Identities 2022</p>
     </footer>
   );
-}
+};
+
+export default Footer;
 
 // absolute: no
 // fixed: no

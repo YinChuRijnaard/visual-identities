@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { servicesSubmenuData, casesSubmenuData } from "../utils/navbarSubmenusData";
+import { servicesSubmenuData, casesSubmenuData } from "../data/navbarSubmenusData";
 
 export function ServicesSubmenu({ handleToggle }) {
   return (

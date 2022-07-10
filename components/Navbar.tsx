@@ -1,10 +1,14 @@
+// Framework imports
 import { useState } from "react";
+
+// Dependency imports
 import { Cross as Hamburger } from "hamburger-react";
 
+// Component imports
 import ButtonBlue from "./ButtonBlue";
 import NavbarMenu from "./NavbarMenu";
 
-export default function Navbar(props) {
+const Navbar = (props) => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
   const handleToggle = () => setIsOpen(!isOpen);
@@ -19,4 +23,6 @@ export default function Navbar(props) {
       {isOpen ? <NavbarMenu handleToggle={handleToggle} /> : null}
     </nav>
   );
-}
+};
+
+export default Navbar;

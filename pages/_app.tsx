@@ -1,13 +1,18 @@
+// Framework imports
 import Head from "next/head";
 import type { AppProps } from "next/app";
 
-import "remixicon/fonts/remixicon.css";
-import "../styles/globals.css";
+// Dependency imports
 import "tailwindcss/tailwind.css";
+import "remixicon/fonts/remixicon.css";
 
+// Component imports
 import Layout from "../components/layout";
 
-function MyApp({ Component, pageProps }: AppProps) {
+// Style imports
+import "../styles/globals.css";
+
+const MyApp = ({ Component, pageProps }: AppProps) => {
   return (
     <Layout>
       <Head>
@@ -17,6 +22,6 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Component {...pageProps} />
     </Layout>
   );
-}
+};
 
 export default MyApp;

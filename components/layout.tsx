@@ -1,14 +1,16 @@
+// Component imports
 import Logo from "./Logo";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 
+// Style imports
 import styles from "../styles/layout.module.css";
 
 type ChildrenProps = {
   children: React.ReactNode;
 };
 
-export default function Layout({ children }: ChildrenProps) {
+const Layout = ({ children }: ChildrenProps) => {
   return (
     <>
       <Logo />
@@ -17,4 +19,6 @@ export default function Layout({ children }: ChildrenProps) {
       <Footer />
     </>
   );
-}
+};
+
+export default Layout;

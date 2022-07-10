@@ -1,4 +1,4 @@
-export default function PlusSign() {
+const PlusSign = () => {
   return (
     <svg
       className="fill-neutral-10 stroke-blue-1"
@@ -21,4 +21,6 @@ export default function PlusSign() {
       </g>
     </svg>
   );
-}
+};
+
+export default PlusSign;
