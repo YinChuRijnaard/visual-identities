@@ -5,21 +5,12 @@ import type { NextPage } from "next";
 // Component imports
 import Divider from "../components/Divider";
 import PlusSign from "../components/PlusSign";
-import ButtonWhite from "../components/ButtonWhite";
+import ButtonWhite from "../components/buttons/ButtonWhite";
 
 // Data imports
 import cardsData from "../data/cardsData";
 
 // Discord link to discussion: https://discord.com/channels/102860784329052160/105765765117935616/981510345594114138
-
-// Dark text: neutral-900
-// Light text: neutral-100
-
-// TODO
-// - Close nav menu when clicking logo to go home
-// - Change Cases sub menu to just one page and delete JZ Service component
-// Make sure nav URL etc auto-hide when scrolling
-// Fix alignment of cards and its data/content
 
 const Home: NextPage = () => {
   return (

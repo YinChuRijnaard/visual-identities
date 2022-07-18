@@ -5,7 +5,7 @@ import { useState } from "react";
 import { Cross as Hamburger } from "hamburger-react";
 
 // Component imports
-import ButtonBlue from "./ButtonBlue";
+import ButtonBlue from "../buttons/ButtonBlue";
 import NavbarMenu from "./NavbarMenu";
 
 const Navbar = (props) => {

@@ -1,5 +1,5 @@
 // Asset imports
-import InfographicSteps from "../../public/assets/InfographicSteps";
+import InfographicSteps from "../../assets/InfographicSteps";
 
 // https://stackoverflow.com/questions/46670075/svg-in-jsx-how-to-convert-defs-tag
 

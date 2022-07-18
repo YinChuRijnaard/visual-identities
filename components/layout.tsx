@@ -1,7 +1,7 @@
 // Component imports
-import Logo from "./Logo";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
+import Logo from "./navbar/Logo";
+import Navbar from "./navbar/Navbar";
+import Footer from "./footer/Footer";
 
 type ChildrenProps = {
   children: React.ReactNode;

@@ -1,7 +1,4 @@
 const Footer = () => {
-  // No margin left/right for the footer
-  // Margin top 16px
-
   return (
     <footer className="mt-16 space-y-8 border-t-1 border-neutral-200 px-4 py-8 text-center">
       <span className="m-auto flex w-1/2 items-center justify-between text-2xl">
@@ -36,9 +33,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-// absolute: no
-// fixed: no
-// relative: sort of
-// sticky: sort of
-// static: no
