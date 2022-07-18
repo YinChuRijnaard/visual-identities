@@ -3,9 +3,6 @@ import Logo from "./Logo";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 
-// Style imports
-import styles from "../styles/layout.module.css";
-
 type ChildrenProps = {
   children: React.ReactNode;
 };
@@ -15,7 +12,7 @@ const Layout = ({ children }: ChildrenProps) => {
     <div>
       <Logo />
       <Navbar />
-      <main className={styles.main}>{children}</main>
+      <main>{children}</main>
       <Footer />
     </div>
   );

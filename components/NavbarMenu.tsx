@@ -38,11 +38,9 @@ const NavbarMenu = ({ handleToggle }: NavbarMenuProps) => {
         <hr className="border-neutral-200" />
 
         <li>
-          <a className="flex cursor-pointer items-center justify-between" onClick={handleCasesSubmenu}>
-            cases
-            {casesOpen ? <i className="ri-arrow-up-s-line ml-2"></i> : <i className="ri-arrow-down-s-line ml-2"></i>}
-          </a>
-          {casesOpen ? <CasesSubmenu handleToggle={handleToggle} /> : null}
+          <Link href="/cases">
+            <a onClick={handleToggle}>cases</a>
+          </Link>
         </li>
 
         <hr className="border-neutral-200" />

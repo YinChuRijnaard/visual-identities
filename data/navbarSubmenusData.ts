@@ -24,10 +24,3 @@ export const servicesSubmenuData = [
     title: "seo/sea",
   },
 ];
-
-export const casesSubmenuData = [
-  {
-    href: "/cases/jz-service",
-    title: "JZ Service",
-  },
-];
