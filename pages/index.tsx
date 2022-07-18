@@ -19,7 +19,7 @@ const Home: NextPage = () => {
       <Divider />
 
       <div className="w-full space-y-4 rounded bg-neutral-200 p-10 leading-relaxed">
-        <p className="text-3xl font-bold">our mission.</p>
+        <p className="text-4xl font-bold">our mission.</p>
         <p className="text-neutral-900/80">
           Our mission is to make a suitable visual product for our customers. We believe that a good identity is, as it
           were, a mirror of an organisation. This product should mirror the visual identity so that it is consistent and
@@ -32,7 +32,7 @@ const Home: NextPage = () => {
       </div>
 
       <div className="w-full space-y-4 rounded bg-blue-1 p-10 leading-relaxed text-neutral-100">
-        <p className="text-3xl font-bold">brand identities.</p>
+        <p className="text-4xl font-bold">brand identities.</p>
         <p className="text-neutral-100/80">
           A brand identity reflects what an organization contains, what its main activities are and what it stands for.
           A tailor-made visual brand identity communicates through a striking logo, a good corporate identity, and
