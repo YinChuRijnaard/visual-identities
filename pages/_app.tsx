@@ -25,3 +25,14 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
 };
 
 export default MyApp;
+
+// Framework imports
+// Dependency imports
+// Type + Interface imports
+// Context + Store imports
+// Hook imports
+// Util imports
+// Data imports
+// Component imports
+// Asset imports
+// Style imports

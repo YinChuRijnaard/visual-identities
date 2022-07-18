@@ -14,10 +14,10 @@ const Navbar = (props) => {
   const handleToggle = () => setIsOpen(!isOpen);
 
   return (
-    <nav className="sticky top-0 w-screen select-none bg-neutral-100 px-4 py-2 lg:px-48">
+    <nav className="sticky top-0 w-screen select-none bg-neutral-100 px-4 py-2">
       <div className="flex items-center justify-between">
         <ButtonBlue href="tel:+31636439554" text="call us" />
-        <Hamburger toggled={isOpen} toggle={handleToggle} label="Show menu" />
+        <Hamburger toggled={isOpen} toggle={handleToggle} label="Show menu" rounded />
       </div>
 
       {isOpen ? <NavbarMenu handleToggle={handleToggle} /> : null}

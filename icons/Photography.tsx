@@ -3,8 +3,8 @@ export default function Photography() {
   return (
     <svg
       className="p-1"
-      height="96"
-      width="96"
+      height="64"
+      width="64"
       version="1.1"
       id="Laag_1"
       xmlns="http://www.w3.org/2000/svg"

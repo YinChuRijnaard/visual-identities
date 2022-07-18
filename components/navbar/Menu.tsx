@@ -24,8 +24,6 @@ const Menu = ({ handleToggle }: MenuProps) => {
           </Link>
         </li>
 
-        <hr className="border-neutral-200" />
-
         <li>
           <a
             className="flex cursor-pointer items-center justify-between"
@@ -36,18 +34,13 @@ const Menu = ({ handleToggle }: MenuProps) => {
           {servicesOpen ? <Submenu handleToggle={handleToggle} /> : null}
         </li>
 
-        <hr className="border-neutral-200" />
-
         {menuData.map((item, index) => {
           return (
-            <div key={index}>
-              <li>
-                <Link href={item.href}>
-                  <a onClick={handleToggle}>{item.text}</a>
-                </Link>
-              </li>
-              <hr className="border-neutral-200" />
-            </div>
+            <li key={index}>
+              <Link href={item.href}>
+                <a onClick={handleToggle}>{item.text}</a>
+              </Link>
+            </li>
           );
         })}
       </ul>

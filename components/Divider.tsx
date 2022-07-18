@@ -1,9 +1,5 @@
 const Divider = () => {
-  return (
-    <div className="my-12 flex items-center justify-center lg:my-16">
-      <span className="h-[2.5px] w-1/4 bg-blue-1"></span>
-    </div>
-  );
+  return <hr className="m-auto w-1/4 rounded border-blue-1" />;
 };
 
 export default Divider;
