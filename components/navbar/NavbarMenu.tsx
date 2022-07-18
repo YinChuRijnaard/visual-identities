@@ -3,7 +3,7 @@ import { useState } from "react";
 import Link from "next/link";
 
 // Component imports
-import { ServicesSubmenu, CasesSubmenu } from "./NavbarSubmenus";
+import ServicesSubmenu from "./NavbarSubmenus";
 
 type NavbarMenuProps = {
   handleToggle: () => void;
