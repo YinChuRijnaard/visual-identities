@@ -1,4 +1,4 @@
-export const servicesSubmenuData = [
+export const submenuData = [
   {
     href: "/services/data-visualisation",
     title: "data visualisation",

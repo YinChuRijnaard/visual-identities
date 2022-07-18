@@ -1,11 +1,11 @@
 import Link from "next/link";
 
-import { servicesSubmenuData } from "../../data/navbarSubmenusData";
+import { submenuData } from "../../data/submenuData";
 
-const ServicesSubmenu = ({ handleToggle }) => {
+const Submenu = ({ handleToggle }) => {
   return (
     <ul className="space-y-2 text-neutral-500">
-      {servicesSubmenuData.map((item, index) => {
+      {submenuData.map((item, index) => {
         return (
           <li key={index}>
             <Link href={item.href}>
@@ -18,4 +18,4 @@ const ServicesSubmenu = ({ handleToggle }) => {
   );
 };
 
-export default ServicesSubmenu;
+export default Submenu;

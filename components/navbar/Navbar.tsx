@@ -6,7 +6,7 @@ import { Cross as Hamburger } from "hamburger-react";
 
 // Component imports
 import ButtonBlue from "../buttons/ButtonBlue";
-import NavbarMenu from "./NavbarMenu";
+import NavbarMenu from "./Menu";
 
 const Navbar = (props) => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
