@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Logo = () => {
   return (
-    <h1 className="select-none bg-blue-1 px-2 py-1 text-center tracking-widest text-neutral-100">
+    <h1 className="select-none px-2 py-1 text-center tracking-widest text-neutral-900">
       <Link href="/">
         <a>visual identities</a>
       </Link>

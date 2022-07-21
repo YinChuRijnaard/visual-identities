@@ -5,7 +5,7 @@ import { useState } from "react";
 import { Cross as Hamburger } from "hamburger-react";
 
 // Component imports
-import ButtonBlue from "../buttons/ButtonBlue";
+import ButtonWhite from "../buttons/ButtonWhite";
 import NavbarMenu from "./Menu";
 
 const Navbar = (props) => {
@@ -14,9 +14,9 @@ const Navbar = (props) => {
   const handleToggle = () => setIsOpen(!isOpen);
 
   return (
-    <nav className="sticky top-0 w-screen select-none bg-neutral-100 px-4 py-2">
+    <nav className="sticky top-0 w-screen select-none bg-blue-1 px-4 py-2 text-neutral-100">
       <div className="flex items-center justify-between">
-        <ButtonBlue href="tel:+31636439554" text="call us" />
+        <ButtonWhite href="tel:+31636439554" text="call us" />
         <Hamburger toggled={isOpen} toggle={handleToggle} label="Show menu" rounded />
       </div>
 
@@ -24,5 +24,7 @@ const Navbar = (props) => {
     </nav>
   );
 };
+
+// bg-blue-1 line 17 causes uncollapsed menu to have a blue background as well...
 
 export default Navbar;
