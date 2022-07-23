@@ -8,14 +8,14 @@ import InfographicSteps from "../../assets/InfographicSteps";
 
 const DataVisualisation = () => {
   return (
-    <>
+    <main>
       <div className="">
         <Typed strings={["How we work"]} className="text-4xl" typeSpeed={75} />
       </div>
       <hr />
       {/* <h1 className="text-2xl text-green-500">This is the Data visualisation subpage, part of the Services folder </h1> */}
       <InfographicSteps />
-    </>
+    </main>
   );
 };
 
