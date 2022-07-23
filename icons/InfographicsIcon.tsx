@@ -1,4 +1,4 @@
-export default function Infographics() {
+export default function InfographicsIcon() {
   // brandBlue
   return (
     <svg

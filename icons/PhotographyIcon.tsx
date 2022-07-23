@@ -1,4 +1,4 @@
-export default function Photography() {
+export default function PhotographyIcon() {
   // brandTrans
   return (
     <svg

@@ -1,4 +1,4 @@
-export default function SeoSea() {
+export default function SeoSeaIcon() {
   return (
     <svg
       className="p-1"

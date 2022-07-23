@@ -1,4 +1,4 @@
-export default function DataVisualisation() {
+export default function DataVisualisationIcon() {
   // brandWhite
   return (
     <svg

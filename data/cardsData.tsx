@@ -1,10 +1,10 @@
 // Asset imports
-import DataVisualisation from "../icons/DataVisualisation";
-import Infographics from "../icons/Infographics";
-import Photography from "../icons/Photography";
-import BrandIdentity from "../icons/BrandIdentity";
-import WebDevelopment from "../icons/WebDevelopment";
-import SeoSea from "../icons/SeoSea";
+import DataVisualisation from "../icons/DataVisualisationIcon";
+import Infographics from "../icons/InfographicsIcon";
+import Photography from "../icons/PhotographyIcon";
+import BrandIdentity from "../icons/BrandIdentityIcon";
+import WebDevelopment from "../icons/WebDevelopmentIcon";
+import SeoSea from "../icons/SeoSeaIcon";
 
 const cardsData = [
   {

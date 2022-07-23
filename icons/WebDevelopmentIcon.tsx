@@ -1,4 +1,4 @@
-export default function WebDevelopment() {
+export default function WebDevelopmentIcon() {
   return (
     <svg
       className="p-1"

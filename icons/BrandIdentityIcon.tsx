@@ -1,4 +1,4 @@
-export default function BrandIdentity() {
+export default function BrandIdentityIcon() {
   return (
     <svg
       className="p-1"
