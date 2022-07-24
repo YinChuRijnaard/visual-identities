@@ -1,6 +1,9 @@
 // Dependency imports
 import Typed from "react-typed";
 
+// Component imports
+import PlusSign from "../../components/PlusSign";
+
 // Asset imports
 import DataVisualisationIcon from "../../icons/DataVisualisationIcon";
 import InfographicSteps from "../../assets/InfographicSteps";
@@ -11,9 +14,9 @@ const DataVisualisation = () => {
   return (
     <main className="my-8 mx-4 space-y-8">
       <ServiceCard />
-      <div>
+      {/* <div>
         <HowWeWork />
-      </div>
+      </div> */}
     </main>
   );
 };
@@ -22,12 +25,12 @@ export default DataVisualisation;
 
 const ServiceCard = () => {
   return (
-    <div className="space-y-4 rounded bg-blue-1 p-5 text-neutral-100">
-      <div className="flex items-center space-x-4 fill-neutral-100">
+    <div className="space-y-4 rounded bg-neutral-200 p-10">
+      <div className="flex items-center space-x-4">
         <DataVisualisationIcon />
         <h1 className="text-2xl font-bold">data visualisation</h1>
       </div>
-      <p className="text-justify opacity-80">
+      <p className="text-justify text-neutral-900/80">
         Data visualization is the translation of often complex data into a visual expression. These kinds of images can
         be used to support texts in their communication. Data visualization can be used for online and in print. Visual
         Identities has years of experience in creating custom visual data for companies, NGOs and other organizations.
@@ -46,6 +49,10 @@ const HowWeWork = () => {
           strings={["how we work"]}
           typeSpeed={75}
         />
+      </div>
+      <div className="flex justify-end space-x-4">
+        <a className="text-xl">our method</a>
+        <PlusSign />
       </div>
     </div>
   );
